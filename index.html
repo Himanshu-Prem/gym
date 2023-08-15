@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gym</title>
+  </head>
+  <link rel="stylesheet" href="gym.css" class="css" />
+  <style>
+    /*css reset*/
+    body {
+      margin: 0px;
+      padding: 0px;
+      background: url("4.jpg");
+      background-size: cover;
+      color: wheat;
+    }
+    .left {
+      border: 0px solid green;
+      border-radius: 10px;
+     /* background-color: rgb(37, 27, 27);*/
+      display: inline-block;
+      position: absolute;
+      top: 20px;
+      left: 50px;
+      padding: 10px;
+    }
+    .left img {
+        border: 0px solid rgb(237, 240, 78);
+      border-radius: 10px;
+      width: 85px;
+    }
+    .left div {
+      text-align: center;
+      line-height: 20px;
+      color: white;
+    }
+    .mid {
+      border: 0px solid rgb(112, 63, 228);
+      border-radius: 10px;
+      display: inline-block;
+      display: block;
+      width: 40%;
+      margin: 20px auto;
+      /*background-color: rgb(37, 27, 27);*/
+    }
+    .right {
+      position: absolute;
+      border: 0px solid rgb(237, 240, 78);
+      border-radius: 10px;
+      display: inline-block;
+      top: 32px;
+      right: 50px;
+      /*background-color: rgb(17, 15, 15);*/
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 20px;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 34px 10px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: rgb(177, 170, 170);
+    }
+    .btn {
+      padding: 3px 5px;
+      margin: 0px 6px;
+      border: 0px solid black;
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .btn:hover {
+        color: rgb(177, 170, 170);
+    }
+    .container {
+      border: 2px solid rgb(247, 243, 243);
+      border-radius: 10px;
+      width: 30%;
+      margin: 40px 757px;
+      padding: 38px 36px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .form-group {
+    }
+    .form-group input {
+      width: 74%;
+      display: block;
+      margin: 8px auto;
+      text-align: center;
+      padding: 0px;
+      font-size: 20px;
+      border: 0px solid rgb(237, 240, 78);
+      border-radius: 10px;
+    }
+    .container button{
+        display: block;
+        width: 73%;
+        margin: auto;
+        border: 2px solid rgb(247, 243, 243);
+      border-radius: 10px;
+      background-color: none;
+    }
+    .add {
+      border: 2px solid rgb(247, 243, 243);
+      border-radius: 10px;
+      width: 30%;
+      margin: 40px 757px;
+      padding: 38px 36px;
+    }
+    .add img{
+        height: 200px;
+        opacity: 70%;
+    }
+    
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="5.jpg" alt="" />
+        <div>Your's Fitness</div>
+      </div>
+      <div class="mid">
+        <div class="navbar">
+          <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Fitness calculator</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <button class="btn">Mail us</button>
+        <button class="btn">Call us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join best gym of bihar</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your age" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your sex" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your p.no" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+    <div class="add">
+        <img src="6.jpg" alt="">
+    </div>
+    <div class="footer">
+        All about developer:
+    </div>
+    
+  </body>
+</html>
